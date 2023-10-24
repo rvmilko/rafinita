@@ -1,0 +1,21 @@
+{
+  "name": "deepweb/dw_services",
+  "type": "typo3-cms-extension",
+  "description": "DeepWeb service extension.",
+  "license": "MIT",
+  "require": {
+    "php": ">=8.1"
+  },
+  "authors": [
+    {
+      "name": "Roman Milko",
+      "role": "Developer",
+      "email": "rvmilko@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  }
+}
