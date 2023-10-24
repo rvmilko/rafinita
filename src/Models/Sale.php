@@ -2,7 +2,8 @@
 
 namespace App\Models;
 
-class Sale {
+class Sale
+{
     private string $action;
     private string $clientKey;
     private string $channelId;
