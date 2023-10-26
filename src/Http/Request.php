@@ -67,6 +67,13 @@ class Request implements RequestInterface
             curl_close($curlSession);
         }
 
-        return $data;
+        if ($data !== false)
+        {
+            return $data;
+        }
+        else
+        {
+            return json_encode(['result' => 'ERROR']);
+        }
     }
 }
